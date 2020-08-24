@@ -1,0 +1,169 @@
+@import url('https://fonts.googleapis.com/css2?family=Acme&family=Monda&display=swap');
+
+
+*
+{
+    margin:0;
+    padding: 0;
+    outline: 0;
+
+}
+
+h1
+{
+    font-size: 35px;
+    font-family: 'Acme', sans-serif;
+}
+
+.nav-bar
+{
+    height: 80px;
+    background: #00c6ff;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #0072ff, #00c6ff);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #0072ff, #00c6ff); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+}
+
+.nav-left
+{
+    float: left;
+    text-decoration:none;
+    color: white;
+    font-size: 25px;
+    padding-left: 50px;
+    padding-top: 22px;
+}
+
+.nav-right
+{
+    font-size: 20px;
+    color: white;
+    float: right;
+    text-decoration:none;
+    padding-right: 50px;
+    padding-top: 25px
+}
+
+img
+{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 50px;
+    width: 340px;
+    height: 300px;
+    border: 1px solid gray;
+    border-radius: 30px;
+}
+
+.first-h
+{
+    text-align: center;
+    margin-top: 30px;
+}
+
+.first-p
+{
+    text-align: center;
+    margin: auto;
+    margin-top: 20px;
+    margin-bottom: 30px;
+    font-family: 'Monda';
+}
+
+.second-h
+{
+    margin-left: 460px;
+    margin-top: 30px;
+}
+
+.third-h
+{
+    margin-left: 820px;
+    margin-top: 30px;
+}
+
+.first-person {
+    background: -webkit-linear-gradient(to right, #3498db, #2c3e50);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #3498db, #2c3e50); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    color: #fff;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 30px;
+    margin-bottom: 40px;
+    text-align: center;
+    border: 1px solid black;
+    border-radius:20px;
+    box-shadow: 5px 5px 5px gray;
+    width: 200px;
+    padding: 30px;
+    font-family: 'Monda', sans-serif;
+  }
+
+.second-person
+{
+    background: #00d2ff;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #3a7bd5, #00d2ff);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #3a7bd5, #00d2ff); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    color: #fff;
+    display: block;
+    margin-left: 400px;
+    margin-right: auto;
+    margin-top: 30px;
+    margin-bottom: 40px;
+    text-align: center;
+    border: 1px solid black;
+    border-radius:20px;
+    box-shadow: 5px 5px 5px gray;
+    width: 220px;
+    padding: 30px;
+    font-family: 'Monda', sans-serif;
+}
+
+.second-person a
+{
+    color: white;
+}
+
+.third-person
+{
+    background: #00d2ff;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #00d2ff, #3a7bd5);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right,  #00d2ff, #3a7bd5); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    color: #fff;
+    display: block;
+    margin-left: 800px;
+    margin-right: auto;
+    margin-top: 30px;
+    margin-bottom: 40px;
+    text-align: center;
+    border: 1px solid black;
+    border-radius:20px;
+    box-shadow: 5px 5px 5px gray;
+    width: 280px;
+    padding: 30px;
+    font-family: 'Monda', sans-serif;
+}
+
+.nav-left:hover, .nav-right:hover
+{
+    color: lightgray;
+}
+
+.second-person a:hover
+{
+    color: gray;
+}
+
+.icons
+{
+    width: 100%;
+    text-align: center;
+    margin-top: 20px ;
+    height: 50px;
+}
+
+.fa-instagram:hover, .fa-facebook-square:hover , .fa-linkedin:hover
+{
+    color: red;
+}
